@@ -4,6 +4,26 @@
 
 #### Build Setup
 
+#### Enviroment Variables
+
+``` Configuration Firabase
+// Previamente se Tiene que crear un proyecto en firebase, las credenciales generadas de firebaseConfig agregarlos de la siguiente manera en el archivo variables.env
+
+# variables.env
+
+export VUE_apiKey = "apikey-generate"
+export VUE_authDomain = "authDomain-generate"
+export VUE_databaseURL = "databaseURL-generate"
+export VUE_projectId = "projectId-generate"
+export VUE_storageBucket = "storageBucket-generate"
+export VUE_messagingSenderId = "messagingSanderId-generate"
+export VUE_appId = "appId-generate"
+export VUE_measurementId = "measurementId-generate"
+
+```
+
+---
+
 ``` bash
 # install dependencies
 npm install
