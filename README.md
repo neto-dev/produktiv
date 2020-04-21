@@ -6,6 +6,8 @@
 
 #### Enviroment Variables
 
+Se tiene que crear un archivo llamado variables.env en la raíz del proyecto.
+
 ``` Configuration Firabase
 // Previamente se Tiene que crear un proyecto en firebase, las credenciales generadas de firebaseConfig agregarlos de la siguiente manera en el archivo variables.env
 
@@ -20,6 +22,12 @@ export VUE_messagingSenderId = "messagingSanderId-generate"
 export VUE_appId = "appId-generate"
 export VUE_measurementId = "measurementId-generate"
 
+```
+
+Despues de agregar la información en nuestro archivo variables.env ejecutamos el siguiente comando para agregar las variables y nuestro sistema pueda consultarlas.
+
+```
+$ source variables.env
 ```
 
 ---
