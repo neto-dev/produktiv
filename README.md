@@ -13,14 +13,14 @@ Se tiene que crear un archivo llamado variables.env en la raíz del proyecto.
 
 # variables.env
 
-export VUE_apiKey = "apikey-generate"
-export VUE_authDomain = "authDomain-generate"
-export VUE_databaseURL = "databaseURL-generate"
-export VUE_projectId = "projectId-generate"
-export VUE_storageBucket = "storageBucket-generate"
-export VUE_messagingSenderId = "messagingSanderId-generate"
-export VUE_appId = "appId-generate"
-export VUE_measurementId = "measurementId-generate"
+export VUE_apiKey='apikey-generate'
+export VUE_authDomain='authDomain-generate'
+export VUE_databaseURL='databaseURL-generate'
+export VUE_projectId='projectId-generate'
+export VUE_storageBucket='storageBucket-generate'
+export VUE_messagingSenderId='messagingSanderId-generate'
+export VUE_appId='appId-generate'
+export VUE_measurementId='measurementId-generate'
 
 ```
 
